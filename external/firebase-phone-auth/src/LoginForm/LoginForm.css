@@ -1,0 +1,41 @@
+
+.login-form {
+  padding: 16px;
+}
+
+#firebase-ui-form {
+  display: flex;
+  justify-content: center;
+}
+
+#signup-btn {
+  background:none!important;
+  border:none;
+  padding:0!important;
+
+  /*optional*/
+  font-family:arial,sans-serif; /*input has OS specific font-family*/
+  color:#069;
+  text-decoration:underline;
+  cursor:pointer;
+
+  margin-left: 4px;
+}
+
+.redirect-link {
+  background-color: #173471;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 9999px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 16px;
+  border: 1px solid #173471;
+  cursor: pointer;
+}
+
+.redirect-link:hover {
+  color: #173471;
+  background-color: white;
+}
